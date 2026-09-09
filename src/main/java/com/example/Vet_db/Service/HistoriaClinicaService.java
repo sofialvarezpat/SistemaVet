@@ -8,6 +8,7 @@ public interface HistoriaClinicaService {
     List<HistoriaClinica> listarTodas ();
     HistoriaClinica buscarPorId(Long id);
     HistoriaClinica guardar (HistoriaClinica historiaClinica);
+    HistoriaClinica crear(HistoriaClinica historia, Long mascotaId);
     HistoriaClinica actualizar (Long id, HistoriaClinica historiaClinica);
     void eliminar(Long id);
 }

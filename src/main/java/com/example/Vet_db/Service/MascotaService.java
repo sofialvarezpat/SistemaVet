@@ -1,7 +1,6 @@
 package com.example.Vet_db.Service;
 
 import com.example.Vet_db.Entity.Mascota;
-
 import java.util.List;
 
 public interface MascotaService {
